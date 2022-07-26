@@ -1,6 +1,8 @@
-﻿<Properties StartupConfiguration="Multiple Projects">
+﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.ItemProperties.UPSSampleApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.UltimateParcelQuoter PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.UltimateParcerQuoterTests FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.FedExSampleApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -11,4 +13,5 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.DHLSampleApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
