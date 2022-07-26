@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.ItemProperties.UltimateParcelQuoter PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.UltimateParcerQuoterTests FirstBuild="True" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{6B4B55AD-FA94-428C-A385-04B047159F82}" ItemName="DHLSampleApi" ConfigurationId="Default" />
+        <StartupItem ItemId="{BCD202BE-39CF-42EF-8FBE-43B1B4AC7472}" ItemName="FedExSampleApi" ConfigurationId="Default" />
+        <StartupItem ItemId="{3797BC33-8524-49DA-9FF0-9266CEF69479}" ItemName="UltimateParcelQuoter" ConfigurationId="Default" />
+        <StartupItem ItemId="{6C002065-796D-4A18-9D4A-6B064E6241B6}" ItemName="UPSSampleApi" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>

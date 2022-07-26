@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YkV8jpalvZ9AL9FSgWAvTY3TvwgO4PgGMhqDyNQ0APM=",
+  "Source": "FedExSampleApi",
+  "BasePath": "_content/FedExSampleApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
