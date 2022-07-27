@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="RestSharp" Version="108.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
@@ -18,14 +19,5 @@
     <None Remove="DTOs\DHLService\" />
     <None Remove="DTOs\UPSService\" />
     <None Remove="DTOs\FedExService\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
-    <Folder Include="Models\" />
-    <Folder Include="DTOs\" />
-    <Folder Include="DTOs\DHLService\" />
-    <Folder Include="DTOs\UPSService\" />
-    <Folder Include="DTOs\FedExService\" />
   </ItemGroup>
 </Project>
