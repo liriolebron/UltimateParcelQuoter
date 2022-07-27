@@ -1,8 +1,49 @@
-﻿<Properties StartupConfiguration="Multiple Projects" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.ItemProperties.UPSSampleApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.ItemProperties.UltimateParcelQuoter PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.UltimateParcerQuoterTests FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.FedExSampleApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.DHLSampleApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UltimateParcelQuoter/DTOs/UPSService/PackageQuoteDTO.cs">
+    <Files>
+      <File FileName="UltimateParcelQuoter/Interfaces/IParcelQuoterService.cs" Line="4" Column="21" />
+      <File FileName="UltimateParcelQuoter/Interfaces/IUSPSService.cs" Line="5" Column="14" />
+      <File FileName="UltimateParcelQuoter/Interfaces/IFedExService.cs" Line="5" Column="6" />
+      <File FileName="UltimateParcelQuoter/Interfaces/IDHLService.cs" Line="1" Column="1" />
+      <File FileName="UltimateParcelQuoter/Models/Quote.cs" Line="7" Column="10" />
+      <File FileName="UltimateParcelQuoter/DTOs/UPSService/UPSPackageQuoteDTO.cs" Line="6" Column="3" />
+      <File FileName="UltimateParcelQuoter/DTOs/FedExService/PackageQuoteDTO.cs" Line="4" Column="1" />
+      <File FileName="UltimateParcelQuoter/DTOs/DHLService/PackateQuoteDTO.cs" Line="5" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UltimateParcelQuoter" expanded="True">
+            <Node name="UltimateParcelQuoter" expanded="True">
+              <Node name="DTOs" expanded="True">
+                <Node name="DHLService" expanded="True" />
+                <Node name="FedExService" expanded="True" />
+                <Node name="UPSService" expanded="True">
+                  <Node name="PackageQuoteDTO.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="UltimateParcerQuoterTests" expanded="True" />
+            <Node name="UPSSampleApi" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="UltimateParcelQuoter" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UPSSampleApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
@@ -13,5 +54,10 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.ItemProperties.DHLSampleApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.FedExSampleApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.UltimateParcerQuoterTests FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
