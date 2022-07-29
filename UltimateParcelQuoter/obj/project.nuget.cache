@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "/9ntAWeoEA2n96YlJwVXFewXe/vaXEpGhGmAmYYHwphp5hiVnRezsOWB6mnvzJWJLECeP7UgSEw/C4tDYIbjQg==",
+  "dgSpecHash": "DLogvHi6pxWsaWHnjdFbLIz9ENyhmJzPmiT7dwtYG5qqRbdWVXpQEKNjbVhMwV1CtGjbwHllGNcDANkSkoR+tA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lirio\\Source\\Repos\\liriolebron\\UltimateParcelQuoter\\UltimateParcelQuoter\\UltimateParcelQuoter.csproj",
+  "projectFilePath": "/Users/liriolebron/Projects/UltimateParcelQuoter/UltimateParcelQuoter/UltimateParcelQuoter.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lirio\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\lirio\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\lirio\\.nuget\\packages\\restsharp\\108.0.1\\restsharp.108.0.1.nupkg.sha512",
-    "C:\\Users\\lirio\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\lirio\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\lirio\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\lirio\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "/Users/liriolebron/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/liriolebron/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/liriolebron/.nuget/packages/restsharp/108.0.1/restsharp.108.0.1.nupkg.sha512",
+    "/Users/liriolebron/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/liriolebron/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/liriolebron/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/liriolebron/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
   ],
   "logs": []
 }
