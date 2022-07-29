@@ -1,9 +1,8 @@
 ﻿using RestSharp;
-using UltimateParcelQuoter.Models;
 
 namespace UltimateParcelQuoter.Interfaces
 {
-    public abstract class PostalService<T,TResult> : IPostalService<T, TResult>
+    public abstract class PostalService<T, TResult> : IPostalService<T, TResult>
     {
         private readonly RestClient _restClient;
 
@@ -16,7 +15,7 @@ namespace UltimateParcelQuoter.Interfaces
 
             _restClient = new RestClient(options);
             _restClient.AddDefaultHeader("Authorization", $"Bearer {bearerToken}");
-        }        
+        }
 
         public async Task<TResult> GetAsync(RestRequest request)
         {

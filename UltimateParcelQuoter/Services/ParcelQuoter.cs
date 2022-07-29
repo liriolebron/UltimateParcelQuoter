@@ -54,7 +54,7 @@ namespace UltimateParcelQuoter.Services
                 Packages = packageDimensions
             });
 
-            await Task.WhenAll(dhlQuoteTask, fedexQuoteTask, upsQuoteTask);
+            var tasks = Task.WhenAll(dhlQuoteTask, fedexQuoteTask, upsQuoteTask);
 
             var dhlResponse = await dhlQuoteTask;
             var fedexResponse = await fedexQuoteTask;

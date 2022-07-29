@@ -18,6 +18,9 @@ public class QuotePackageController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Quote(PackageQuote quote)
     {
+        if (quote == null || quote?.Packages == null || quote?.Packages?.Count == 0)
+            return BadRequest();
+
         return Ok(await _parcelQuoter.Quote(quote));
     }
 }
