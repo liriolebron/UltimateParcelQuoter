@@ -14,13 +14,15 @@ Small project for showcasing multiple .net core APIs consumption.
 ## How to run
 Using the provided vscode/ folder should have the required configurations for running all the APIs.
 
-1 - Locate the **Multiple APIs** launch configuration under **Run and Debug**
+1 - Clone the project
 
-2 - Click *Run* 
+2 - Locate the **Multiple APIs** launch configuration under **Run and Debug**
 
-3 - Navigate to the **UltimateParcelQuoter API** swagger page, it should be on: https://localhost:7288/swagger. 
+3 - Click *Run* 
 
-4 - Invoke the **Quote** resource using swagger
+4 - Navigate to the **UltimateParcelQuoter API** swagger page, it should be on: https://localhost:7288/swagger. 
+
+5 - Invoke the **Quote** resource using swagger
 
 ## Unit Tests
 
