@@ -1,0 +1,106 @@
+{
+    "version": "0.2.0",
+    "compounds": [
+        {
+            "name": "Multiple APIs",
+            "configurations": [
+                "DHL Sample API",
+                "FedEx Sample Api",
+                "UPS Sample Api",
+                "UltimateParcelQuoter"
+            ]
+        }
+    ],
+    "configurations": [
+
+        {
+            "name": "DHL Sample API",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-dhl",
+            "program": "${workspaceFolder}/DHLSampleApi/bin/Debug/net6.0/DHLSampleApi.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/DHLSampleApi",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },        
+        {            
+            "name": "FedEx Sample Api",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-fedex",
+            "program": "${workspaceFolder}/FedExSampleApi/bin/Debug/net6.0/FedExSampleApi.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/FedExSampleApi",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "UPS Sample Api",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-ups",
+            "program": "${workspaceFolder}/UPSSampleApi/bin/Debug/net6.0/UPSSampleApi.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/UPSSampleApi",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": "UltimateParcelQuoter",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-quoter",
+            "program": "${workspaceFolder}/UltimateParcelQuoter/bin/Debug/net6.0/UltimateParcelQuoter.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/UltimateParcelQuoter",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
