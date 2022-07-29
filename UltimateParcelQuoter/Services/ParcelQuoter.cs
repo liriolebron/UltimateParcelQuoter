@@ -24,8 +24,6 @@ namespace UltimateParcelQuoter.Services
 
         public async Task<string> Quote(PackageQuote packageQuote)
         {
-            var responseValues = new List<QuoteResponse>();
-
             var packageDimensions = packageQuote.Packages
                 .Select(p => new PackageDimensions
                 {
@@ -60,25 +58,28 @@ namespace UltimateParcelQuoter.Services
 
             var dhlResponse = await dhlQuoteTask;
             var fedexResponse = await fedexQuoteTask;
-            var upsResponse = await upsQuoteTask; 
+            var upsResponse = await upsQuoteTask;
 
-            responseValues.Add(new() 
+            var responseValues = new List<QuoteResponse>
             {
-                PostalService = "DHL",
-                QuotedAmount = dhlResponse.Total
-            });
+                new()
+                {
+                    PostalService = "DHL",
+                    QuotedAmount = dhlResponse.Total
+                },
 
-            responseValues.Add(new()
-            {
-                PostalService = "FedEx",
-                QuotedAmount = fedexResponse.Amount
-            });
+                new()
+                {
+                    PostalService = "FedEx",
+                    QuotedAmount = fedexResponse.Amount
+                },
 
-            responseValues.Add(new()
-            {
-                PostalService = "UPS",
-                QuotedAmount = upsResponse.Quote
-            });
+                new()
+                {
+                    PostalService = "UPS",
+                    QuotedAmount = upsResponse.Quote
+                }
+            };
 
             var minimumQuoted = responseValues.OrderBy(q => q.QuotedAmount).FirstOrDefault();
 
