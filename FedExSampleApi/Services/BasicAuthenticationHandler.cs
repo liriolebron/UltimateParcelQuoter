@@ -22,7 +22,7 @@ namespace FedExSampleApi.Services
             _userService = userService;
         }
 
-        protected override async Task<AuthenticateResult> HandleAuthenticateAsync()
+        protected override Task<AuthenticateResult> HandleAuthenticateAsync()
         {
             string username = null;
 
@@ -38,17 +38,15 @@ namespace FedExSampleApi.Services
             }
             catch (Exception ex)
             {
-                return AuthenticateResult.Fail($"Authentication failed: {ex.Message}");
+                return Task.FromResult(AuthenticateResult.Fail($"Authentication failed: {ex.Message}"));
             }
 
-            var claims = new[] {
-                    new Claim(ClaimTypes.Name, username)
-                };
+            var claims = new[] { new Claim(ClaimTypes.Name, username) };
             var identity = new ClaimsIdentity(claims, Scheme.Name);
             var principal = new ClaimsPrincipal(identity);
             var ticket = new AuthenticationTicket(principal, Scheme.Name);
 
-            return AuthenticateResult.Success(ticket);
+            return Task.FromResult(AuthenticateResult.Success(ticket));
         }
     }
 
