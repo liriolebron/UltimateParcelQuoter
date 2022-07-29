@@ -15,13 +15,11 @@ namespace UltimateParcelQuoter.Interfaces
             };
 
             _restClient = new RestClient(options);
-            //_restClient.AddDefaultHeader("Authorization", $"Bearer {bearerToken}");
+            _restClient.AddDefaultHeader("Authorization", $"Bearer {bearerToken}");
         }        
 
         public async Task<TResult> GetAsync(RestRequest request)
         {
-            var result = await _restClient.ExecutePostAsync(request);
-
             return await _restClient.PostAsync<TResult>(request);
         }
 
