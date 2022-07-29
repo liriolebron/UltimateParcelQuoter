@@ -214,11 +214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lirio\\Source\\Repos\\liriolebron\\UltimateParcelQuoter\\FedExSampleApi\\FedExSampleApi.csproj",
+      "projectUniqueName": "c:\\Users\\lirio\\source\\repos\\liriolebron\\UltimateParcelQuoter\\FedExSampleApi\\FedExSampleApi.csproj",
       "projectName": "FedExSampleApi",
-      "projectPath": "C:\\Users\\lirio\\Source\\Repos\\liriolebron\\UltimateParcelQuoter\\FedExSampleApi\\FedExSampleApi.csproj",
+      "projectPath": "c:\\Users\\lirio\\source\\repos\\liriolebron\\UltimateParcelQuoter\\FedExSampleApi\\FedExSampleApi.csproj",
       "packagesPath": "C:\\Users\\lirio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lirio\\Source\\Repos\\liriolebron\\UltimateParcelQuoter\\FedExSampleApi\\obj\\",
+      "outputPath": "c:\\Users\\lirio\\source\\repos\\liriolebron\\UltimateParcelQuoter\\FedExSampleApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -274,7 +274,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

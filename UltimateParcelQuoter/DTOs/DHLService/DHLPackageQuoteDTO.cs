@@ -2,7 +2,7 @@
 
 namespace UltimateParcelQuoter.DTOs.DHLService
 {
-    public class PackageQuoteDTO
+    public class DHLPackageQuoteDTO
     {
         public string ContactAdress { get; set; }
         public string WarehouseAddress { get; set; }

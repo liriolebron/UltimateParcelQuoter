@@ -242,11 +242,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lirio\\Source\\Repos\\liriolebron\\UltimateParcelQuoter\\UltimateParcelQuoter\\UltimateParcelQuoter.csproj",
+      "projectUniqueName": "c:\\Users\\lirio\\source\\repos\\liriolebron\\UltimateParcelQuoter\\UltimateParcelQuoter\\UltimateParcelQuoter.csproj",
       "projectName": "UltimateParcelQuoter",
-      "projectPath": "C:\\Users\\lirio\\Source\\Repos\\liriolebron\\UltimateParcelQuoter\\UltimateParcelQuoter\\UltimateParcelQuoter.csproj",
+      "projectPath": "c:\\Users\\lirio\\source\\repos\\liriolebron\\UltimateParcelQuoter\\UltimateParcelQuoter\\UltimateParcelQuoter.csproj",
       "packagesPath": "C:\\Users\\lirio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lirio\\Source\\Repos\\liriolebron\\UltimateParcelQuoter\\UltimateParcelQuoter\\obj\\",
+      "outputPath": "c:\\Users\\lirio\\source\\repos\\liriolebron\\UltimateParcelQuoter\\UltimateParcelQuoter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -306,7 +306,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

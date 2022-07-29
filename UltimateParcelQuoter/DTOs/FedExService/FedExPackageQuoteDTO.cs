@@ -2,7 +2,7 @@
 
 namespace UltimateParcelQuoter.DTOs.FedExService
 {
-    public class PackageQuoteDTO
+    public class FedExPackageQuoteDTO
     {
         public string Consignee { get; set; }
         public string Consignor { get; set; }

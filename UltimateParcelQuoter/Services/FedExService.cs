@@ -4,18 +4,20 @@ using UltimateParcelQuoter.Interfaces;
 
 namespace UltimateParcelQuoter.Services
 {
-    public class FedExService : PostalService<PackageQuoteDTO, PackageQuoteResponseDTO>
+    public class FedExService : PostalService<FedExPackageQuoteDTO, FedExPackageQuoteResponseDTO>
     {
-        public FedExService(string baseUrl, string bearerToken) : base(baseUrl, bearerToken)
+        public FedExService(IConfiguration configuration) :
+            base(configuration["FedEx:BaseUrl"],
+                configuration["FedEx:ApiToken"])
         {
         }
 
-        public override async Task<PackageQuoteResponseDTO> Quote(PackageQuoteDTO entity)
+        public override async Task<FedExPackageQuoteResponseDTO> Quote(FedExPackageQuoteDTO entity)
         {
-            var request = new RestRequest()
+            var request = new RestRequest("/QuotePackage", Method.Post)
                .AddJsonBody(entity);
 
-            return await ExecuteRequest<PackageQuoteResponseDTO>(request);
+            return await GetAsync(request);
         }
     }
 }

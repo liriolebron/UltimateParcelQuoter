@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1700.7
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateParcelQuoter", "UltimateParcelQuoter\UltimateParcelQuoter.csproj", "{3797BC33-8524-49DA-9FF0-9266CEF69479}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UltimateParcelQuoter", "UltimateParcelQuoter\UltimateParcelQuoter.csproj", "{3797BC33-8524-49DA-9FF0-9266CEF69479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FedExSampleApi", "FedExSampleApi\FedExSampleApi.csproj", "{BCD202BE-39CF-42EF-8FBE-43B1B4AC7472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FedExSampleApi", "FedExSampleApi\FedExSampleApi.csproj", "{BCD202BE-39CF-42EF-8FBE-43B1B4AC7472}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPSSampleApi", "UPSSampleApi\UPSSampleApi.csproj", "{6C002065-796D-4A18-9D4A-6B064E6241B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UPSSampleApi", "UPSSampleApi\UPSSampleApi.csproj", "{6C002065-796D-4A18-9D4A-6B064E6241B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DHLSampleApi", "DHLSampleApi\DHLSampleApi.csproj", "{6B4B55AD-FA94-428C-A385-04B047159F82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DHLSampleApi", "DHLSampleApi\DHLSampleApi.csproj", "{6B4B55AD-FA94-428C-A385-04B047159F82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateParcerQuoterTests", "UltimateParcerQuoterTests\UltimateParcerQuoterTests.csproj", "{1360A459-893C-41C8-A972-1FD40FC7BBF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UltimateParcerQuoterTests", "UltimateParcerQuoterTests\UltimateParcerQuoterTests.csproj", "{1360A459-893C-41C8-A972-1FD40FC7BBF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

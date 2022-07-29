@@ -1,21 +1,23 @@
 ﻿using RestSharp;
-using UltimateParcelQuoter.DTOs.FedExService;
+using System.Text.Json;
+using UltimateParcelQuoter.DTOs.DHLService;
 using UltimateParcelQuoter.Interfaces;
 
 namespace UltimateParcelQuoter.Services
 {
-    public class DHLService : PostalService<PackageQuoteDTO, PackageQuoteResponseDTO>
+    public class DHLService : PostalService<DHLPackageQuoteDTO, DHLPackageQuoteResponseDTO>
     {
-        public DHLService(string baseUrl, string bearerToken) : base(baseUrl, bearerToken)
+        public DHLService(IConfiguration configuration) :
+            base(configuration["DHL:BaseUrl"],
+                configuration["DHL:ApiToken"])
         {
         }
-
-        public override async Task<PackageQuoteResponseDTO> Quote(PackageQuoteDTO entity)
+        public override async Task<DHLPackageQuoteResponseDTO> Quote(DHLPackageQuoteDTO entity)
         {
-            var request = new RestRequest()
-               .AddJsonBody(entity);
+            var request = new RestRequest("/QuotePackage", Method.Post)
+                .AddJsonBody(entity);
 
-            return await ExecuteRequest<PackageQuoteResponseDTO>(request);
+            return await GetAsync(request);
         }
     }
 }

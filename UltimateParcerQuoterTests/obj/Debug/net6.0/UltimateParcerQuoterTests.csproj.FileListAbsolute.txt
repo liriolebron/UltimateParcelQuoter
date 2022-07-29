@@ -97,14 +97,14 @@
 /Users/liriolebron/Projects/UltimateParcelQuoter/UltimateParcerQuoterTests/obj/Debug/net6.0/UltimateParcerQuoterTests.genruntimeconfig.cache
 /Users/liriolebron/Projects/UltimateParcelQuoter/UltimateParcerQuoterTests/obj/Debug/net6.0/ref/UltimateParcerQuoterTests.dll
 C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\testhost.dll
+C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\testhost.exe
+C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\NUnit3.TestAdapter.dll
 C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
 C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\nunit.engine.dll
 C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\nunit.engine.api.dll
 C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\nunit.engine.core.dll
 C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\testcentric.engine.metadata.dll
-C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\testhost.exe
-C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\UltimateParcerQuoterTests.deps.json
 C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\UltimateParcerQuoterTests.runtimeconfig.json
 C:\Users\lirio\Source\Repos\liriolebron\UltimateParcelQuoter\UltimateParcerQuoterTests\bin\Debug\net6.0\UltimateParcerQuoterTests.dll
