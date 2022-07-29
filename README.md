@@ -6,7 +6,7 @@ Small project for showcasing multiple .net core APIs consumption.
 
 
 ## Pre-requisites
-- .NET Core 6
+- .NET 6
 - Visual Studio Code
 
 
