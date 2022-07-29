@@ -12,7 +12,7 @@ public class QuotePackageController : ControllerBase
     [HttpPost]
     [Produces("text/xml")]
     [Consumes("text/xml")]
-    public IActionResult Quote(PackageQuote? packageQuote)
+    public IActionResult Quote(PackageQuote packageQuote)
     {
         return Ok(new PackageQuoteResponse()
         {

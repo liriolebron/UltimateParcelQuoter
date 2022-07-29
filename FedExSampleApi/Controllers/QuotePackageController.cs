@@ -10,7 +10,7 @@ namespace FedExSampleApi.Controllers;
 public class QuotePackageController : ControllerBase
 {
     [HttpPost]
-    public IActionResult Quote(PackageQuote? packageQuote)
+    public IActionResult Quote(PackageQuote packageQuote)
     {
         return Ok(new PackageQuoteResponse() 
         {
