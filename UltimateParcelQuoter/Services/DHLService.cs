@@ -13,6 +13,7 @@ namespace UltimateParcelQuoter.Services
                 configuration["DHL:Password"])
         {
         }
+
         public override async Task<DHLPackageQuoteResponseDTO> Quote(DHLPackageQuoteDTO entity)
         {
             var request = new RestRequest("/QuotePackage", Method.Post)
