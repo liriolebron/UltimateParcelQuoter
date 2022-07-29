@@ -8,7 +8,8 @@ namespace UltimateParcelQuoter.Services
     {
         public FedExService(IConfiguration configuration) :
             base(configuration["FedEx:BaseUrl"],
-                configuration["FedEx:ApiToken"])
+                configuration["FedEx:UserName"],
+                configuration["FedEx:Password"])
         {
         }
 

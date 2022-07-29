@@ -1,4 +1,5 @@
 ﻿using RestSharp;
+using RestSharp.Authenticators;
 
 namespace UltimateParcelQuoter.Interfaces
 {
@@ -6,7 +7,7 @@ namespace UltimateParcelQuoter.Interfaces
     {
         private readonly RestClient _restClient;
 
-        public PostalService(string baseUrl, string bearerToken)
+        public PostalService(string baseUrl, string userName, string password)
         {
             var options = new RestClientOptions()
             {
@@ -14,7 +15,7 @@ namespace UltimateParcelQuoter.Interfaces
             };
 
             _restClient = new RestClient(options);
-            _restClient.AddDefaultHeader("Authorization", $"Bearer {bearerToken}");
+            _restClient.Authenticator = new HttpBasicAuthenticator(userName, password);
         }
 
         public async Task<TResult> GetAsync(RestRequest request)

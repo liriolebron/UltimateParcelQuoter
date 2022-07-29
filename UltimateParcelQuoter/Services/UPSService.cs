@@ -11,7 +11,8 @@ namespace UltimateParcelQuoter.Services
     {
         public UPSService(IConfiguration configuration) :
             base(configuration["UPS:BaseUrl"],
-                configuration["UPS:ApiToken"])
+                configuration["UPS:UserName"],
+                configuration["UPS:Password"])
         {
         }
 

@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using UPSSampleApi.Models.PackageQuote;
 
 namespace UPSSampleApi.Controllers;
 
+[Authorize(AuthenticationSchemes = "BasicAuthentication")]
 [ApiController]
 [Route("[controller]")]
 public class QuotePackageController : ControllerBase

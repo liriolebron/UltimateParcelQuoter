@@ -9,7 +9,8 @@ namespace UltimateParcelQuoter.Services
     {
         public DHLService(IConfiguration configuration) :
             base(configuration["DHL:BaseUrl"],
-                configuration["DHL:ApiToken"])
+                configuration["DHL:UserName"],
+                configuration["DHL:Password"])
         {
         }
         public override async Task<DHLPackageQuoteResponseDTO> Quote(DHLPackageQuoteDTO entity)

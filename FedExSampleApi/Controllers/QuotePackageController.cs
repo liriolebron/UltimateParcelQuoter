@@ -1,8 +1,10 @@
 ﻿using FedExSampleApi.Models.PackageQuote;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FedExSampleApi.Controllers;
 
+[Authorize(AuthenticationSchemes = "BasicAuthentication")]
 [ApiController]
 [Route("[controller]")]
 public class QuotePackageController : ControllerBase
